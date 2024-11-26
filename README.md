@@ -38,6 +38,7 @@ model = AutoModelForMaskedLM.from_pretrained("hfl/chinese-roberta-wwm-ext")
 ```
 
 <h3 id="NLwwd">模型训练</h3>
+
 ```plain
 Moudle/
 │
@@ -70,6 +71,15 @@ Moudle/
 + 提交Issue：
 + 加入QQ群：（验证信息：）  
 再次感谢您对本项目的关注与支持，希望我们的努力能为您的旅游体验带来更多便捷与愉悦！
+
+
+
+
+
+
+
+
+
 
 
 
