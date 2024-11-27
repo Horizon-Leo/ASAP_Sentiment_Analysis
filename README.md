@@ -48,7 +48,7 @@ Moudle/
 │   └──generation2_src
 │   └──generation3_src
 │
-├──LICENSE
+├── LICENSE
 └── README.md
 ```
 修改文件中的模型路径即可开始训练
