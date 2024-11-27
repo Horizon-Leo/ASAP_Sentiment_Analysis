@@ -35,11 +35,20 @@ Moudle/
 ├── generation1/
 │   ├── train.py
 │   └── utils.py
-│   
+│
 ├── generation2/
 │   └── TensorBoard_train.py
 │   └── utils.py
 │
+├── generation3/
+│   └── TensorBoard_tarin2.py
+│   └── utils.py
+│
+├── src/
+│   └──generation2_src
+│   └──generation3_src
+│
+├──LICENSE
 └── README.md
 ```
 修改文件中的模型路径即可开始训练
