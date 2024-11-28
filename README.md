@@ -42,16 +42,19 @@ Moudle/
 │
 ├── generation3/
 │   └── TensorBoard_tarin2.py
-│   └── utils.py
+│   └── utils_new.py
 │
-├── src/
-│   └──generation2_src
-│   └──generation3_src
+├── runs/
+│   └── experiment1
+│   └── experiment2
 │
 ├── LICENSE
 └── README.md
 ```
-修改文件中的模型路径即可开始训练
+修改文件中的模型路径即可开始训练,其中runs文件夹是使用TensorBoard工具可视化生成的文件，使用TensorBoard并导入experiment文件夹中的参数即可查看实验数据图样。
+我们发现在10epoch后，ACSA任务的acc和F1值有较大的上升空间，也希望有兴趣的小伙伴去多训练几个轮次。
+针对第三次实验，我们参考了美团技术团队在NAACL 2021 上发表的论文ASAP中的模型结构，本人愚钝，不一定是构建出最完整的模型结构，如果您有最新发现可以联系QQ：1976349941
+
 ## 贡献者
 感谢以下贡献者为本项目付出的努力：
 [Horizon-Leo - Overview](https://github.com/Horizon-Leo)
